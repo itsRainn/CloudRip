@@ -6,7 +6,7 @@ This is mostly a **vibecoded program** (I did make my own fixes to things I do u
 
 This program lets you download videos in **any Resolution, FPS, **and** Audio Bitrate** as **MP4, MKV, MOV,** or **WebM** from a sites like YouTube and Medal! The program also lets you strip the audio from any video in **any bitrate** as **MP3, M4A,** or **WAV** from sites like YouTube Music (or just regular YouTube) and Soundcloud!
 
-Unfortunately, as of now, Spotify and BiliBili are not supported due to certain restrictions. So, again as of now, the tested and working websites to use this program on are YouTube, Instagram
+Unfortunately, as of now, *Spotify* and *BiliBili* are **not supported** due to certain restrictions. So, again as of now, the tested and working websites to use this program on are *YouTube*, *Instagram*,
 
 ~~Oh by the way, the Bitrate goes from Lossless (Video/Audio's exisiting default) all the way down to 8kbps~~
 
