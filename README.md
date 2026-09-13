@@ -4,7 +4,7 @@ A lightweight, customized desktop application built with Python (Tkinter) and en
 
 This is mostly a **vibecoded program** (I did make my own fixes to things I do understand) using **Google Gemini** for the goal of bringing people a simple and lightweight program, while having not a lot of knowledge but smart enough to understand code, so people don't have to go onto multiple websites realizing that downloading in HD costs money or that some sites are somewhat sketchy.
 
-This program lets you download videos in **any Resolution, FPS, **and** Audio Bitrate** as **MP4, MKV, MOV,** or **WebM** from a sites like YouTube and Medal! The program also lets you strip the audio from any video in **any bitrate** as **MP3, M4A,** or **WAV** from sites like YouTube Music (or just regular YouTube) and Soundcloud!
+This program lets you download videos in **any Resolution, FPS, **and** Audio Bitrate** as **MP4, MKV, MOV,** or **WebM** from sites like YouTube and Medal! The program also lets you strip the audio from any video in **any bitrate** as **MP3, M4A,** or **WAV** from sites like YouTube Music (or just regular YouTube) and Soundcloud!
 
 Unfortunately, as of now, *Spotify* and *BiliBili* are **not supported** due to certain restrictions. So, again as of now, the tested and working websites to use this program on are *YouTube*, *Instagram*,
 
