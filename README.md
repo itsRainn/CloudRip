@@ -35,6 +35,7 @@ As of now, the tested and working websites to use this program on are:
 ## 📝 Planned Features
 * **Support for More Websites/Services:** Self-explanatory.
 * **Abort Button:** Be able to abort/stop conversions.
+* **Auto--Updates:** Make the program able to auto-update.
 
 ---
 
