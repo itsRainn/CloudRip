@@ -1,4 +1,4 @@
-#CloudRip: A Universal Media Downloader 🎬🎵
+# CloudRip: A Universal Media Downloader 🎬🎵
 
 A lightweight, customized desktop application built with Python (Tkinter) and built alongside `yt-dlp` and `FFmpeg` with the help of `Google Gemini` to comfortably pull crisp, multi-platform media files.
 
