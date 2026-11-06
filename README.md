@@ -8,6 +8,8 @@ This program lets you download videos in **any Resolution, FPS, **and** Audio Bi
 
 Unfortunately, as of now, *Spotify*, *Threads*, *BiliBili*, and *Streaming Platforms* are <ins>**not supported**</ins> due to certain restrictions. 
 
+***Please make sure that you are logged in to websites like YouTube or you'll run into authentication issues!***
+
 As of now, the tested and working websites to use this program on are: 
 - *YouTube*
 - *YouTube Music*
