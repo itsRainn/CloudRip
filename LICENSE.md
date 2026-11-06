@@ -1,4 +1,4 @@
-# CloudRip Educational & Non-Commercial License (UMDENC-1.0)
+# CloudRip Educational & Non-Commercial License (CRENC-1.0)
 
 This license applies to all source code, assets, and other files in this repository (the "Software").
 
