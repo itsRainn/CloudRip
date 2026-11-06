@@ -62,7 +62,7 @@ pip install yt-dlp
 To run the raw code script locally or compile the source engine via command-line arguments, you must place your static binaries and graphics files directly in the root project directory side-by-side:
 *   **`ffmpeg.exe`** (Static binary extracted from the Gyan.dev release `/bin` folder directory).
 *   **`ffprobe.exe`** (Static binary extracted from the Gyan.dev release `/bin` folder directory).
-*   **`icon.ico`** (Your custom app logo graphic layer file asset).
+*   **`iconfinal.ico`** (Your custom app logo graphic layer file asset).
 
 ### 4. Run the Interface Application Script
 ```bash
