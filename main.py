@@ -12,7 +12,7 @@ import subprocess
 import webbrowser
 
 CURRENT_VERSION = "0.0.1"
-VERSION_URL = "https://raw.githubusercontent.com/itsRainn/Universal-Media-Downloader/refs/heads/main/version.json?token=GHSAT0AAAAAAEI3AJ6A32FOGEWFMZKKAFA62VGU3UQ"
+VERSION_URL = "https://raw.githubusercontent.com/itsRainn/CloudRip/refs/heads/main/version.json"
 
 def get_base_path():
     """Returns the base operational folder directory path, whether compiled or raw code format."""
@@ -21,8 +21,8 @@ def get_base_path():
     return os.path.dirname(os.path.abspath(__file__))
 
 
-URL_INPUT_BOX_WIDTH = 35
-SAVE_PATH_BOX_WIDTH = 32
+URL_INPUT_BOX_WIDTH = 50
+SAVE_PATH_BOX_WIDTH = 40
 VIDEO_FORMAT_BOX_WIDTH = 15
 AUDIO_FORMAT_BOX_WIDTH = 15
 AUDIO_BITRATE_BOX_WIDTH = 27
@@ -30,7 +30,7 @@ SLIDER_LAYOUT_WIDTH = 280
 
 
 def get_settings_path():
-    app_data_dir = os.path.join(os.path.expanduser('~'), 'AppData', 'Local', 'UnivMediaDldr')
+    app_data_dir = os.path.join(os.path.expanduser('~'), 'AppData', 'Local', 'CloudRip')
     os.makedirs(app_data_dir, exist_ok=True)
     return os.path.join(app_data_dir, "config.json")
 
@@ -68,7 +68,7 @@ class ToolTip:
 
 def load_settings():
     user_videos_path = os.path.join(os.path.expanduser('~'), 'Videos')
-    default_path = os.path.join(user_videos_path, 'UnivMediaDldr')
+    default_path = os.path.join(user_videos_path, 'CloudRip')
     os.makedirs(default_path, exist_ok=True)
     defaults = {
         "save_directory": default_path,
@@ -478,12 +478,12 @@ def snap_fps_slider(value):
 
 # gui
 root = tk.Tk()
-root.title("Universal Media Downloader")
+root.title("CloudRip")
 root.geometry("540x550")
 root.resizable(False, False)
 
 try:
-    ico_path = os.path.join(get_base_path(), "icon.ico")
+    ico_path = os.path.join(get_base_path(), "iconfinal.ico")
     root.iconbitmap(ico_path)
 except:
     pass
@@ -496,7 +496,7 @@ def run_background_update_check():
             latest_version = data.get("version")
             setup_download_url = data.get("url")
             if latest_version and latest_version != CURRENT_VERSION:
-                if messagebox.askyesno("Update Available", f"A new version ({latest_version}) of UnivMediaDldr is ready!\nWould you like to download and install the update now?"):
+                if messagebox.askyesno("Update Available", f"A new version ({latest_version}) of CloudRip is ready!\nWould you like to download and install the update now?"):
                     webbrowser.open_new_tab(setup_download_url)
     except:
         pass
@@ -692,7 +692,7 @@ status_label.pack(pady=(0, 5))
 MY_APP_SIGNATURE = "itsRainn"
 global app_watermark_label
 
-app_watermark_label = tk.Label(root, text=f"Made by {MY_APP_SIGNATURE}", font=("Arial", 8, "italic", "underline"), cursor="hand2")
+app_watermark_label = tk.Label(root, text=f"Made by {MY_APP_SIGNATURE} (VIBECODED)", font=("Arial", 8, "italic", "underline"), cursor="hand2")
 app_watermark_label.pack(side="left", anchor="s", padx=10, pady=(0, 5))
 
 MY_YOUTUBE_URL = "https://youtube.com/@heyitsrain"
