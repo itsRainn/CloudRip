@@ -1,4 +1,4 @@
-# Universal Media Downloader Educational & Non-Commercial License (UMDENC-1.0)
+# CloudRip Educational & Non-Commercial License (UMDENC-1.0)
 
 This license applies to all source code, assets, and other files in this repository (the "Software").
 
